@@ -4,9 +4,8 @@
   "description": "Empty",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "prod": "webpack-dev-server --mode production --open",
+    "heroku-postbuild": "ng build --prod",
     "start": "webpack-dev-server --mode development --open"
   },
   "author": "Mubashir Cheentavida",
